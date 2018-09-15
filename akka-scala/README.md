@@ -65,7 +65,6 @@ All URIs are relative to *https://virtserver.swaggerhub.com/DIXMA/test_tpaga/0.0
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*DefaultApi* | [**usersUserIdGet**](DefaultApi.md#usersUserIdGet) | **GET** /users/{userId} | Returns a user by ID
 
 
 ## Documentation for Models
@@ -100,5 +99,4 @@ Bang, all done. Run the `autodoc` script in the `bin` directory to see the API
 you just built.
 
 ## Author
-
 
