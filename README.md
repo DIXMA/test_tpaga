@@ -52,26 +52,26 @@ python manage.py migrate
 
 > * New Account
 >> #### Route: accounts/:
->> Method: POST
->> Description: Create new account on the store
->> Form params:
+>> #### Method: POST
+>> #### Description: Create new account on the store
+>> #### Form params:
 >>> * number: integer, numer for the new account.
 >>> * client: integer, client primare key ientification
 >>> * balance: float, initial balance
->> Responses:
+>> #### Responses:
 >>> * 201: Created success
 >>> * 400: Bad request, error to serializer object data
 >>> * 500: Internal server error
 
 > Update balance an account
 >> #### Route: accounts/update/{pk}/:
->> Method: PUT
->> Description: Update an exist account
->> Params:
+>> #### Method: PUT
+>> #### Description: Update an exist account
+>> #### Params:
 >>> * pk: integer, primary key to search account for update balance
->> Form params:
+>> #### Form params:
 >>> * balance: float, positive or negative data for update balance to an account.
->> Responses:
+>> #### Responses:
 >>> * 201: Updated success
 >>> * 404: Not found account by pk
 >>> * 400: Bad request, error while search the account
