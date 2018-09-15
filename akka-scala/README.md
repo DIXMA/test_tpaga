@@ -65,13 +65,11 @@ All URIs are relative to *https://virtserver.swaggerhub.com/DIXMA/test_tpaga/0.0
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ListAccountsApi* | [**accountsGet**](ListAccountsApi.md#accountsGet) | **GET** /accounts | List acounts registered on the store
-*NewAccountApi* | [**accountsPost**](NewAccountApi.md#accountsPost) | **POST** /accounts | Add a new acount to the store
+*DefaultApi* | [**usersUserIdGet**](DefaultApi.md#usersUserIdGet) | **GET** /users/{userId} | Returns a user by ID
 
 
 ## Documentation for Models
 
- - [Order](Order.md)
 
 
 ## Documentation for Authorization
