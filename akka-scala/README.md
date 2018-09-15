@@ -65,6 +65,9 @@ All URIs are relative to *https://virtserver.swaggerhub.com/DIXMA/test_tpaga/0.0
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
+*PetApi* | [**addPet**](PetApi.md#addPet) | **POST** /pet | Add a new pet to the store
+*PetApi* | [**findPetsByStatus**](PetApi.md#findPetsByStatus) | **GET** /pet/findByStatus | Finds Pets by status
+*PetApi* | [**updatePet**](PetApi.md#updatePet) | **PUT** /pet | Update an existing pet
 
 
 ## Documentation for Models
@@ -99,4 +102,5 @@ Bang, all done. Run the `autodoc` script in the `bin` directory to see the API
 you just built.
 
 ## Author
+
 
