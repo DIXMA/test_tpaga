@@ -72,6 +72,7 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
+ - [Order](Order.md)
 
 
 ## Documentation for Authorization
