@@ -1,0 +1,5 @@
+db.sqlite3
+tpaga/settings.py
+app/migrations/
+app/__pycache__/
+tpaga/__pycache__/
