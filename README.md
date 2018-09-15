@@ -44,14 +44,14 @@ python manage.py migrate
 
 ## EndPoints
 > * ListAccounts
->> #### Route: accounts/:
+>> #### Route: http://tpagabackend.pythonanywhere.com/accounts/:
 >> Method: GET
 >> Description: List alla ccounts on the store
 >> Responses:
 >>> * 201: List whit all accounts registers 
 
 > * New Account
->> #### Route: accounts/:
+>> #### Route: http://tpagabackend.pythonanywhere.com/accounts/update/{pk}/:
 >> #### Method: POST
 >> #### Description: Create new account on the store
 >> #### Form params:
