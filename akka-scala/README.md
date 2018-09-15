@@ -65,8 +65,8 @@ All URIs are relative to *https://virtserver.swaggerhub.com/DIXMA/test_tpaga/0.0
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AccountsApi* | [**addPet**](AccountsApi.md#addPet) | **POST** /accounts | Add a new pet to the store
-*PetApi* | [**updatePet**](PetApi.md#updatePet) | **PUT** /accounts/update/{pk}/ | Update an existing pet
+*ListAccountsApi* | [**accountsGet**](ListAccountsApi.md#accountsGet) | **GET** /accounts | List acounts registered on the store
+*NewAccountApi* | [**accountsPost**](NewAccountApi.md#accountsPost) | **POST** /accounts | Add a new acount to the store
 
 
 ## Documentation for Models
