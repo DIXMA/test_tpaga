@@ -51,7 +51,7 @@ python manage.py migrate
 >>> * 201: List whit all accounts registers 
 
 > * New Account
->> #### Route: http://tpagabackend.pythonanywhere.com/accounts/update/{pk}/:
+>> #### Route: http://tpagabackend.pythonanywhere.com/accounts/:
 >> #### Method: POST
 >> #### Description: Create new account on the store
 >> #### Form params:
@@ -64,7 +64,7 @@ python manage.py migrate
 >>> * 500: Internal server error
 
 > Update balance an account
->> #### Route: accounts/update/{pk}/:
+>> #### Route: http://tpagabackend.pythonanywhere.com/accounts/update/{pk}/:
 >> #### Method: PUT
 >> #### Description: Update an exist account
 >> #### Params:
