@@ -45,9 +45,9 @@ python manage.py migrate
 ## EndPoints
 > * ListAccounts
 >> #### Route: http://tpagabackend.pythonanywhere.com/accounts/:
->> Method: GET
->> Description: List alla ccounts on the store
->> Responses:
+>> #### Method: GET
+>> #### Description: List alla ccounts on the store
+>> #### Responses:
 >>> * 201: List whit all accounts registers 
 
 > * New Account
