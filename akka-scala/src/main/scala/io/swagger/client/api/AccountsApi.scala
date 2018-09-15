@@ -9,22 +9,18 @@ import io.swagger.client.core._
 import io.swagger.client.core.CollectionFormats._
 import io.swagger.client.core.ApiKeyLocations._
 
-object PetApi {
+object AccountsApi {
 
   /**
    * 
    * Expected answers:
-   *   code 400 :  (Invalid ID supplied)
-   *   code 404 :  (Pet not found)
-   *   code 405 :  (Validation exception)
+   *   code 405 :  (Invalid input)
    * 
    * @param body Pet object that needs to be added to the store
    */
-  def updatePet(body: ): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.PUT, "https://virtserver.swaggerhub.com/DIXMA/test_tpaga/0.0.1", "/accounts/update/{pk}/", "application/json")
+  def addPet(body: ): ApiRequest[Unit] =
+    ApiRequest[Unit](ApiMethods.POST, "https://virtserver.swaggerhub.com/DIXMA/test_tpaga/0.0.1", "/accounts", "application/json")
       .withBody(body)
-      .withErrorResponse[Unit](400)
-      .withErrorResponse[Unit](404)
       .withErrorResponse[Unit](405)
       
 
